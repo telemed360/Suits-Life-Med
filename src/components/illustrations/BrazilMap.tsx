@@ -75,10 +75,10 @@ export function BrazilMap({ className = "" }: { className?: string }) {
           <stop offset="1" stopColor="#777832" />
         </linearGradient>
         <filter id="bmShadow" x="-15%" y="-15%" width="130%" height="135%">
-          <feDropShadow dx="0" dy="12" stdDeviation="14" floodColor="#2F3112" floodOpacity="0.18" />
+          <feDropShadow dx="0" dy="12" stdDeviation="14" floodColor="#35411D" floodOpacity="0.18" />
         </filter>
         <filter id="bmPinShadow" x="-60%" y="-40%" width="220%" height="200%">
-          <feDropShadow dx="0" dy="2" stdDeviation="1.6" floodColor="#2F3112" floodOpacity="0.35" />
+          <feDropShadow dx="0" dy="2" stdDeviation="1.6" floodColor="#35411D" floodOpacity="0.35" />
         </filter>
       </defs>
 

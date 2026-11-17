@@ -24,7 +24,7 @@ const display = localFont({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#5C5D21",
+  themeColor: "#637A28",
   width: "device-width",
   initialScale: 1,
 };
