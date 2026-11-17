@@ -1,7 +1,8 @@
-import { waLink } from "@/lib/site";
+import { site, waLink } from "@/lib/site";
 
-/** Botão flutuante de WhatsApp, sempre visível, só com o ícone. */
+/** Botão flutuante de WhatsApp, só com o ícone. Aparece quando há número cadastrado. */
 export function WhatsAppFab() {
+  if (!site.whatsapp) return null;
   return (
     <a
       href={waLink("Olá! Vim pelo site e quero saber mais sobre os planos da Suits Life Med.")}
